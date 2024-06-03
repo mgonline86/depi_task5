@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Gamal | Task 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">M G</a>
+            <ul class="links">
+                <li><a href="/" class="active">Calculator</a></li>
+                <li><a href="/arrays.html">Arrays</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <!-- Mini Calculator -->
+        <section>
+            <div class="accordion">
+                <div class="accordionCollapse">
+                    <h1 class="accordionTitle">Mini Calculator</h1>
+                    <div class="accordionBody calculator">
+                        <form id="l3q7">
+                            <div class="formGroup">
+                                <label for="l3q7n1">First Number</label>
+                                <input type="number" name="n1" id="l3q7n1" step="0.01" required>
+                            </div>
+                            <div class="formGroup">
+                                <fieldset>
+                                    <legend>Operation</legend>
+                                    <div class="radioGroup">
+                                        <input type="radio" id="add" name="n3" value="+" checked>
+                                        <label for="add">+</label>
+                                    </div>
+                                    <div class="radioGroup">
+                                        <input type="radio" id="sub" name="n3" value="-">
+                                        <label for="sub">-</label>
+                                    </div>
+                                    <div class="radioGroup">
+                                        <input type="radio" id="mult" name="n3" value="x">
+                                        <label for="mult">x</label>
+                                    </div>
+                                    <div class="radioGroup">
+                                        <input type="radio" id="div" name="n3" value="/">
+                                        <label for="div">/</label>
+                                    </div>
+                                </fieldset>
+                            </div>
+                            <div class="formGroup">
+                                <label for="l3q7n2">Second Number</label>
+                                <input type="number" name="n2" id="l3q7n2" step="0.01" required>
+                            </div>
+                            <div class="formGroup">
+                                <button type="submit">Run</button>
+                            </div>
+                            <div class="formGroup">
+                                <fieldset>
+                                    <legend>Result</legend>
+                                    <div class="output"></div>
+                                </fieldset>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Mini Calculator -->
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
